@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/thetayloredman/uwuify/issues"
   },
-  "homepage": "https://github.com/thetayloredman/uwuify#readme"
+  "homepage": "https://github.com/thetayloredman/uwuify#readme",
+  "dependencies": {
+    "uwuifier": "^2.0.2"
+  }
 }

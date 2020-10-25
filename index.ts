@@ -23,5 +23,12 @@ import { Uwuifier } from 'uwuifier';
 // a class called "uwuifier" to store the
 // main infrastructure.
 class uwuifier {
-    
+    // Now we have the main constructor used for
+    // the actual creation
+    public constructor() {
+        // Create the uwuifier
+        this._uwuifier = new Uwuifier();
+    }
+
+    private _uwuifier: Uwuifier;
 }
