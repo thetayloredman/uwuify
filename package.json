@@ -1,6 +1,6 @@
 {
   "name": "uwuify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert \"normal text\" into uwu-text!",
   "main": "index.js",
   "scripts": {
