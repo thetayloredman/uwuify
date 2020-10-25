@@ -16,7 +16,6 @@
 // 
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
-Object.defineProperty(exports, "__esModule", { value: true });
 // Import Uwuifier
 var uwuifier_1 = require("uwuifier");
 // Due to the way uwuify is built, we use
@@ -83,3 +82,4 @@ var uwuifier = /** @class */ (function () {
     };
     return uwuifier;
 }());
+module.exports = uwuifier;

@@ -89,3 +89,5 @@ class uwuifier {
 
     private _uwuifier: Uwuifier;
 }
+
+export = uwuifier;
