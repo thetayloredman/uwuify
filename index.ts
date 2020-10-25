@@ -28,6 +28,63 @@ class uwuifier {
     public constructor() {
         // Create the uwuifier
         this._uwuifier = new Uwuifier();
+
+        // INSERTIONS
+        // Uwuifier has built in items that we want to
+        // modify.
+
+        // Place our actions into this uwuifier instance
+        this._uwuifier.actions = [
+            '*blushes*',
+            '*cries*',
+            '*screams*',
+            '*sweats*',
+            '*sees bulge*',
+            '*thinks about your bulge*',
+            '*runs away*',
+            '*hugs*',
+            '*huggles tightly*',
+            '*boops your nose*',
+            '*twerks*',
+            '*starts twerking*',
+            '*screams*',
+            '*walks away*',
+            '*looks at you*',
+            '*cries*',
+            '*screeches*',
+            '*pounces on you*',
+            '*eats*',
+            '*boops self*'
+        ];
+
+        // Place in our faces instead of the Uwuifier ones
+        this._uwuifier.faces = [
+            ':3',
+            'x3',
+            'owo',
+            'OwO',
+            'uwu',
+            'UwU',
+            '^-^',
+            '^_^'
+        ];
+
+        // Custom exclamations too!
+        this._uwuifier.exclamations = [
+            '!',
+            '!?',
+            '?!',
+            '!??',
+            '??!',
+            '?!?',
+            '!?!?!?!??!?',
+            '??!!',
+            '!11!!'
+        ];
+    }
+
+    public uwuify(text: string) {
+        return this._uwuifier.uwuifySentence(text);
     }
 
     private _uwuifier: Uwuifier;
