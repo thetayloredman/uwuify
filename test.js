@@ -7,5 +7,5 @@ const strings = [
 console.log('Do these strings look uwuified?');
 
 for (const str of strings) {
-    console.log(new uwuifier.uwuifier().uwuify(str));
+    console.log(new uwuifier().uwuify(str));
 }
